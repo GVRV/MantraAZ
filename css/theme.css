@@ -2674,16 +2674,10 @@ a:hover {
 /* Theme - Header */
 header {
   padding-top: 3.25em;
-  padding-bottom: 8.125em;
+  padding-bottom: 6em;
 }
 header .logo {
   display: block;
-}
-header .logo img {
-  max-height: 1.08333333em;
-}
-header .logo.logo--lg img {
-  max-height: 1.625em;
 }
 header a:not(:last-child) {
   display: inline-block;
@@ -2691,7 +2685,7 @@ header a:not(:last-child) {
 }
 @media all and (max-width: 767px) {
   header {
-    padding-bottom: 4.875em;
+    padding-bottom: 2.875em;
   }
   header a {
     display: block;
