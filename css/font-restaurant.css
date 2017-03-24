@@ -1,0 +1,38 @@
+/* Font Overrides for Law Layout */
+
+@font-face {
+  font-family: 'BagnardSans';
+  src: url('../fonts/BagnardSans.otf');
+  font-weight: 400;
+}
+
+h1,h2,h3,.h1,.h2,.h3{
+	font-family: 'BagnardSans';
+}
+
+h4,h5,h6,blockquote,.h4,.h5,.h6{
+  font-family: 'Fira Sans','Helvetica Neue','Helvetica', 'Arial', sans-serif;
+}
+
+body,input[type]{
+  font-family: 'Fira Sans','Inconsolata','Courier New', monospace;
+}
+
+@media all and (min-width: 990px){
+	h2{
+		font-size: 2em;
+		line-height: 1.40625em;
+		margin-bottom: 0.8125em;
+	}
+}
+
+@media all and (max-width: 767px){
+	h3,.h3{
+		font-size: 1.4375em;
+		line-height: 1.41304348em;
+	}
+}
+
+h2+p{
+	margin-top: 3.25em;
+}

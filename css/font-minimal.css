@@ -1,0 +1,9 @@
+/* Font Overrides for Law Layout */
+
+body,h1,h2,h3,h4,h5,h6,p,span,ul,.h1{
+	font-family: 'Poppins','Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 400;
+}
+.h1,.h1 span{
+	font-weight: 600;
+}
